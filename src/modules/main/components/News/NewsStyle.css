@@ -15,7 +15,7 @@
  }
  .news  .new_card .grid-container .card{
     width: 500px;
-    height:320px;
+    height:345px;
     /* flex-direction: column; */
     align-items: center;
     justify-content: space-between;
@@ -31,7 +31,7 @@
    height: 100%;
    border-radius: 7px;
    overflow: hidden;
-   margin-right: 1
+   /* margin-right: 1 */
 }
 
 .grid-container {

@@ -50,7 +50,7 @@ function Footer() {
    <div  data-aos="zoom-in" data-aos-delay="2700"> <img src={dribbble} alt='socials'/></div> 
     </div>
   </div>
-<div className='AllProjects' data-aos="zoom-in" data-aos-delay="2000">
+<div className='AllProjects' data-aos="zoom-in" >
 <h2>Projects</h2>
 <div className="projects">
   <span>Web Design</span>
@@ -63,12 +63,12 @@ function Footer() {
 <div className='Gallery' >
 <h2>Gallery</h2>
 <div className="grid-gallery">
-  <div className='item' data-aos="zoom-in" data-aos-delay="400"><img src={img1}alt='Gallery'/></div>
-  <div className='item' data-aos="zoom-in" data-aos-delay="700"><img src={img2}alt='Gallery'/></div>
-  <div className='item' data-aos="zoom-in" data-aos-delay="1000"><img src={img3}alt='Gallery'/></div>
-  <div className='item' data-aos="zoom-in" data-aos-delay="1300"><img src={img4}alt='Gallery'/></div>
-  <div className='item' data-aos="zoom-in" data-aos-delay="1600"><img src={img5}alt='Gallery'/></div>
-  <div className='item' data-aos="zoom-in" data-aos-delay="1900"><img src={img6}alt='Gallery'/></div>
+  <div className='item' data-aos="zoom-in" ><img src={img1}alt='Gallery'/></div>
+  <div className='item' data-aos="zoom-in" ><img src={img2}alt='Gallery'/></div>
+  <div className='item' data-aos="zoom-in" ><img src={img3}alt='Gallery'/></div>
+  <div className='item' data-aos="zoom-in" ><img src={img4}alt='Gallery'/></div>
+  <div className='item' data-aos="zoom-in" ><img src={img5}alt='Gallery'/></div>
+  <div className='item' data-aos="zoom-in"><img src={img6}alt='Gallery'/></div>
 </div>
 
 </div>
@@ -84,7 +84,7 @@ function Footer() {
 </div>
 </div>
 
-   <div className='end_footer' >Copyright @2023. All Rights Reserved. Designed with love by <h4>Ali Hamz Mohammad</h4>.</div>
+   <div className='end_footer' >Copyright @2023. All Rights Reserved. Designed with love by <h4>Ali Hamz Mohammad</h4></div>
 
     </div>
 

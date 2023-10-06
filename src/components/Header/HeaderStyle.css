@@ -258,7 +258,7 @@ height: 20%;
 .top-header .details {
   width: 100%;
   font-size: 10px;
-  font-weight: none;
+  /* font-weight: none; */
   display: flex;
     align-items: center;
     height: 70%;
@@ -278,7 +278,7 @@ height: 20%;
 }
 .navbar .left-section{
   font-size: 6px;
-  font-weight: none;
+  /* font-weight: none; */
   padding-right: 2px;
 }
 .overlay .btn button{
