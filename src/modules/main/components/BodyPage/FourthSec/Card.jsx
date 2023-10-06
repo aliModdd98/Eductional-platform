@@ -19,7 +19,7 @@ function Card({ cources }) {
           key={index}
           id={`card-${index}`}
           data-aos="fade-left"
-          data-aos-delay={index * 1000}
+          // data-aos-delay={index * 1000}
           data-aos-duration="1000"
         >
           <div className="image">

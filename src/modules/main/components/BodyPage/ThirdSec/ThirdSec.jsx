@@ -11,17 +11,17 @@ function ThirdSec({subList}) {
 
  const titlePage="We Have Best Education"
  
-  useEffect(() => {
-    AOS.init();
-    const subItems = document.querySelectorAll('.aos-item');
+  // useEffect(() => {
+  //   AOS.init();
+  //   const subItems = document.querySelectorAll('.aos-item');
 
-    subItems.forEach((item, index) => {
-      const delay = (index + 1) * 1000;
-      setTimeout(() => {
-        item.classList.add('aos-animate');
-      }, delay);
-    });
-  }, []);
+  //   subItems.forEach((item, index) => {
+  //     const delay = (index + 1) * 1000;
+  //     setTimeout(() => {
+  //       item.classList.add('aos-animate');
+  //     }, delay);
+  //   });
+  // }, []);
  
  return (
     <div className='third-sec'>

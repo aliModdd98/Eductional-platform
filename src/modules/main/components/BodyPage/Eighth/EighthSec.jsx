@@ -18,7 +18,7 @@ function EighthSec({pricing}) {
 pricing.map((e,index)=>(
 <div className="itemPrice" key={index}
 data-aos="zoom-in-up"
-data-aos-delay={index * 1000}
+// data-aos-delay={index * 1000}
 >
 <h2>{e.title}</h2>
     <div className="row"><h2>{e.price}</h2>/month</div>

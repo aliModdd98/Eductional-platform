@@ -13,7 +13,7 @@ function News({SchoolNews}) {
             className="card"
             key={index}
             data-aos="zoom-in-up"
-            data-aos-delay={index * 500}
+            // data-aos-delay={index * 500}
           >
             <img src={e.src} />
             <div className="right_sec">

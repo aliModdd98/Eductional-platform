@@ -6,8 +6,7 @@ import { fetchTeachers } from "./../store/teacher.slice";
 import { motion } from "framer-motion";
 import Loader from './../../../components/Loader/Loader'
 import Header from './../../../components/Header/Header'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 export default function Teachers() {
   // const { firts, data } = useLoaderData();
   const dispatch = useDispatch();
@@ -22,13 +21,7 @@ export default function Teachers() {
   const handleClick = () => {
     setShowAll(true);
   };
-  useEffect(() => {
-    AOS.init();
-  }, []);
 
-  useEffect(() => {
-    AOS.refresh();
-  });
 const name="Our Teachers"
   return (
    <div> {isLoading ? <Loader/> :
@@ -59,12 +52,7 @@ const name="Our Teachers"
              return (
               <div
               className="card"
-              key={index}
-              id={`card-${index}`}
-              data-aos="fade-left"
-              data-aos-delay={index * 1000}
-              data-aos-duration="900"
-            >
+              key={index}  >
                  <div className="teacherImg"><img src={teacher.img} alt="Teacher Image"/></div>
                 <h2>{teacher.name} </h2> 
                 <div className="info"><span>{teacher.subject}</span><span>{teacher.classes}</span></div>

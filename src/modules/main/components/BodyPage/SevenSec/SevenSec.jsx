@@ -23,7 +23,8 @@ function SevenSec({SchoolNews}) {
  <div  className="card"
  key={index}
  data-aos="zoom-in-up"
- data-aos-delay={index * 1000}> 
+//  data-aos-delay={index * 1000}
+ > 
 <img src={e.src}/>
 <div className="right_sec">
 <h4>{e.title}</h4>

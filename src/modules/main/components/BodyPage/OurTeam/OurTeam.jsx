@@ -15,7 +15,7 @@ function OurTeam({teachers}) {
 
    <div className='card' key={index}    id={`card-${index}`}
    data-aos="fade-right"
-   data-aos-delay={index * 1000}
+//    data-aos-delay={index * 1000}
    data-aos-duration="1000">
    
    <div className="teacher-image">
