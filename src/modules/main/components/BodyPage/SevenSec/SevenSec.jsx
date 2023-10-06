@@ -1,18 +1,8 @@
 import HeadPage from '../ThirdSec/HeadPage'
 import './SevenSecStyle.css'
-import { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 function SevenSec({SchoolNews}) {
   const titlePage="School News"
-  
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
-  useEffect(() => {
-    AOS.refresh();
-  });
   
   return (
     <div className='seven_sec'>
@@ -22,8 +12,7 @@ function SevenSec({SchoolNews}) {
 {   SchoolNews.map((e,index)=>(
  <div  className="card"
  key={index}
- data-aos="zoom-in-up"
-//  data-aos-delay={index * 1000}
+
  > 
 <img src={e.src}/>
 <div className="right_sec">

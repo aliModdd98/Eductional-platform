@@ -12,7 +12,6 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
-    "aos": "^2.3.4",
     "axios": "^1.5.1",
     "framer-motion": "^10.16.4",
     "preact": "^10.16.0",

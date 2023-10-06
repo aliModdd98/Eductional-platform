@@ -1,9 +1,6 @@
 import HeadPage from './HeadPage.jsx'
 import './ThirdSecStyle.css'
 import { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-
 
 
 function ThirdSec({subList}) {
@@ -32,7 +29,7 @@ function ThirdSec({subList}) {
 <div className="sub-grid">
     {
     subList.map((e, index) => (
-        <div className="sub-item aos-item" key={index} data-aos="fade-left">
+        <div className="sub-item" key={index} >
          <div className="circle">
          <span>{e.icon}</span> </div> 
           <h3>{e.title}</h3>

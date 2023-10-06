@@ -6,7 +6,7 @@ import {BsTelephone}from 'react-icons/bs'
 import Dropdown from './DropDown';
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
-import 'aos/dist/aos.css';
+
 
 function Header({pageName,desc}) {
   
@@ -17,7 +17,7 @@ function Header({pageName,desc}) {
         backgroundPosition: 'center',
       };
         return (
-          <div data-aos="flip-left">
+          <div>
     <div className='header ' style={containerStyle} >
      <div className="overlay" >
     

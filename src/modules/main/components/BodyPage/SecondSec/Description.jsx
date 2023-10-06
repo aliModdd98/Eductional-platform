@@ -1,12 +1,11 @@
 import './SecondSecStyle.css'
 import {BsCheckLg} from 'react-icons/bs'
 
-import 'aos/dist/aos.css';
 
 function Description({title}) {
   return (
     
-<div data-aos="fade-down-left">
+<div >
 
 
 

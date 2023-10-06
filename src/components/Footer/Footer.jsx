@@ -14,19 +14,10 @@ import img5 from'./../../assets/img5.webp'
 import img6 from'./../../assets/img6.jpeg'
 
 import { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 function Footer() {
  
  
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
-  useEffect(() => {
-    AOS.refresh();
-  });
-
  
   return (
     <div className='footer'>
@@ -39,18 +30,18 @@ function Footer() {
     </p>
 
     <h2>Connect</h2>
-    <div className="socials" data-aos="zoom-in" data-aos-delay="1000">
-   <div data-aos="zoom-in" data-aos-delay="400"> <img src={insta} alt='socials'/></div> 
-   <div data-aos="zoom-in" data-aos-delay="800"> <img src={twitter} alt='socials'/></div> 
-   <div data-aos="zoom-in" data-aos-delay="1100"> <img src={facebook} alt='socials'/></div> 
-   <div data-aos="zoom-in" data-aos-delay="1600"> <img src={linked} alt='socials'/></div> 
-   <div   data-aos="zoom-in" data-aos-delay="1900">  <img src={telegram} alt='socials'/></div> 
+    <div className="socials" >
+   <div> <img src={insta} alt='socials'/></div> 
+   <div > <img src={twitter} alt='socials'/></div> 
+   <div > <img src={facebook} alt='socials'/></div> 
+   <div > <img src={linked} alt='socials'/></div> 
+   <div  >  <img src={telegram} alt='socials'/></div> 
    
-   <div  data-aos="zoom-in" data-aos-delay="2200"> <img src={pinterest} alt='socials'/></div>
-   <div  data-aos="zoom-in" data-aos-delay="2700"> <img src={dribbble} alt='socials'/></div> 
+   <div  > <img src={pinterest} alt='socials'/></div>
+   <div  > <img src={dribbble} alt='socials'/></div> 
     </div>
   </div>
-<div className='AllProjects' data-aos="zoom-in" >
+<div className='AllProjects'  >
 <h2>Projects</h2>
 <div className="projects">
   <span>Web Design</span>
@@ -63,12 +54,12 @@ function Footer() {
 <div className='Gallery' >
 <h2>Gallery</h2>
 <div className="grid-gallery">
-  <div className='item' data-aos="zoom-in" ><img src={img1}alt='Gallery'/></div>
-  <div className='item' data-aos="zoom-in" ><img src={img2}alt='Gallery'/></div>
-  <div className='item' data-aos="zoom-in" ><img src={img3}alt='Gallery'/></div>
-  <div className='item' data-aos="zoom-in" ><img src={img4}alt='Gallery'/></div>
-  <div className='item' data-aos="zoom-in" ><img src={img5}alt='Gallery'/></div>
-  <div className='item' data-aos="zoom-in"><img src={img6}alt='Gallery'/></div>
+  <div className='item' ><img src={img1}alt='Gallery'/></div>
+  <div className='item'  ><img src={img2}alt='Gallery'/></div>
+  <div className='item'  ><img src={img3}alt='Gallery'/></div>
+  <div className='item' ><img src={img4}alt='Gallery'/></div>
+  <div className='item'  ><img src={img5}alt='Gallery'/></div>
+  <div className='item' ><img src={img6}alt='Gallery'/></div>
 </div>
 
 </div>

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 import HeadPage from '../ThirdSec/HeadPage';
  import './NinthSecStyle.css'
 function NinthSec({ data }) {
@@ -22,7 +21,7 @@ function NinthSec({ data }) {
   return (
     <div className="ninth_Sec">
       <HeadPage titlePage={titlePage} etc={etc} />
-      <div className="circle" data-aos="fade-right">
+      <div className="circle" >
         <img
           src={currentInfoData.image}
           alt="Circle Image"
@@ -32,7 +31,7 @@ function NinthSec({ data }) {
 
 
 
-      <div className="info" data-aos="fade-left">
+      <div className="info" >
         <h2>{currentInfoData.name}</h2>
         <p>{currentInfoData.position}</p>
       </div>

@@ -1,15 +1,6 @@
-import { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 function Card({ cources }) {
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
-  useEffect(() => {
-    AOS.refresh();
-  });
+ 
 
   return (
     <div className="cources">
@@ -17,11 +8,7 @@ function Card({ cources }) {
         <div
           className="card"
           key={index}
-          id={`card-${index}`}
-          data-aos="fade-left"
-          // data-aos-delay={index * 1000}
-          data-aos-duration="1000"
-        >
+              >
           <div className="image">
             <img src={e.src} alt="no" />
           </div>

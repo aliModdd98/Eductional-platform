@@ -1,8 +1,6 @@
 import 'react-router-dom'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import LandingPage from './components/Home/LandingPage';
 import NavigateTo from './router/Navigate';

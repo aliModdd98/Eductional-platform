@@ -2,7 +2,7 @@ import React from 'react'
 import HeadPage from '../ThirdSec/HeadPage'
 import './OurTeamStyle.css'
 
-import 'aos/dist/aos.css';
+
 function OurTeam({teachers}) {
  
     return (
@@ -13,10 +13,7 @@ function OurTeam({teachers}) {
     <div className="cards">{
       teachers.map((e,index)=>(  
 
-   <div className='card' key={index}    id={`card-${index}`}
-   data-aos="fade-right"
-//    data-aos-delay={index * 1000}
-   data-aos-duration="1000">
+   <div className='card' key={index}   >
    
    <div className="teacher-image">
     <img  src={e.src} alt='Teachers '/></div>
