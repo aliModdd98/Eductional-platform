@@ -66,6 +66,7 @@
    width: 65px;
    height: 65px;
    left: 50%;
+   background-color: transparent;
 }
 .students .moreS span{
     margin: 0 auto;

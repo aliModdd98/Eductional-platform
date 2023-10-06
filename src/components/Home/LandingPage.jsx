@@ -59,7 +59,7 @@ function LandingPage() {
        </div>
       <div className='sectionp'><img className='imgsec' src={students} alt="img" />
       <h2>Students</h2>
-      <div className='iconss'><NavLink to="/students" activeClassName="active"><BsArrowRightCircleFill size={40}/></NavLink></div> </div>
+      <div className='iconss'><NavLink to="/students" activeClassName="active"><BsArrowRightCircleFill size={32}/></NavLink></div> </div>
      
      </div>
   </div>

@@ -69,6 +69,9 @@
 .home .sectionPlatform .sectionp .iconss{
     margin: 12px auto;
 }
+.home .sectionPlatform .sectionp .iconss{
+    background-color: transparent;
+}
 .home .sectionPlatform .sectionp .iconss:hover{
    
     cursor: pointer;
