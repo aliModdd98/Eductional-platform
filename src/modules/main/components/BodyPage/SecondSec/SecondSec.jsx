@@ -1,6 +1,6 @@
 import img from "./../../../../../assets/girl.webp";
 import "./SecondSecStyle.css";
-import Description from "./Description.JSX";
+import Description from "./Description.jsx";
 function SecondSec() {
   const title2 = "Become an Instructor";
   return (
